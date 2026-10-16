@@ -1,0 +1,23 @@
+Question 1 answer:
+
+in simplicity we must keep our class simple like , not too much functionality in it , and if we give to much of it
+if we make seperate classes for each Activity , for example we make seperate class for server call , parsing json and so on 
+it will be much easier to implement changes or some upgrade and even testing each activity on our project
+
+
+Question 2 answer :
+
+mvvm is model view viewmodel , model represents data of application . View shows data and UI elements , handles user interactions 
+ViewModel is between of these two which handles business logic and retrieves data from model and  gives it to view to show them to the user
+
+
+mvp arcitectural design pattern is the most popular one , which stands for Model View Presenter 
+View displays data Model holds business logic while Presenter is moddle man for both of them
+which gets data from model and gives it to View to Show it 
+
+mvi is most reliable , becouse it's gives a clean code and divides components into three parts like 
+Model View Intent it has unidirectional data flow and distinct roles gives an easier understanding ,building  and maintenance of mvi apps
+
+mvc is model view controller is the basics of arcitectural design patterns and it suits for both beginners and experienced programmers
+
+
